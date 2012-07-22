@@ -1,7 +1,7 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@charset "CP850";
+/* Welcome to Retícula.
+ *
+ */
 /* line 17, ../../../../../../RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -65,4 +65,755 @@ a img {
 /* line 116, ../../../../../../RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
+}
+
+/* line 267, ../sass/_reticula.scss */
+body {
+  width: 100%;
+  *zoom: 1;
+}
+/* line 30, ../sass/_reticula.scss */
+body:before, body:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+body:after {
+  clear: both;
+}
+
+/* line 8, ../sass/reticula_sass.scss */
+.banner {
+  /*
+   * Also add relative position to make easier positioning childrens,
+   */
+  position: relative;
+  display: block;
+  *zoom: 1;
+  padding-left: 20px;
+  padding-right: 10px;
+  width: 960px;
+  margin-left: -10px;
+  margin-right: -10px;
+  border: 1px solid gray;
+}
+/* line 30, ../sass/_reticula.scss */
+.banner:before, .banner:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.banner:after {
+  clear: both;
+}
+/* line 12, ../sass/reticula_sass.scss */
+.banner > header {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: red;
+  height: 6em;
+}
+/* line 19, ../sass/reticula_sass.scss */
+.banner > nav {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 620px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: green;
+  height: 6em;
+}
+
+/*
+ * Rows container
+ */
+/* line 30, ../sass/reticula_sass.scss */
+.fixed_columns {
+  width: 980px;
+}
+
+/*
+ * Fixed Row styles
+ */
+/* line 39, ../sass/reticula_sass.scss */
+.fixed-row {
+  /*
+   * Also add relative position to make easier positioning childrens,
+   */
+  position: relative;
+  display: block;
+  *zoom: 1;
+  padding-left: 20px;
+  padding-right: 10px;
+  width: 960px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: .5em;
+  background-color: #999;
+}
+/* line 30, ../sass/_reticula.scss */
+.fixed-row:before, .fixed-row:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fixed-row:after {
+  clear: both;
+}
+/* line 47, ../sass/reticula_sass.scss */
+.fixed-row .col1 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fixed-row .col1:before, .fixed-row .col1:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fixed-row .col1:after {
+  clear: both;
+}
+/* line 47, ../sass/reticula_sass.scss */
+.fixed-row .col2 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 140px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fixed-row .col2:before, .fixed-row .col2:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fixed-row .col2:after {
+  clear: both;
+}
+/* line 47, ../sass/reticula_sass.scss */
+.fixed-row .col3 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 220px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fixed-row .col3:before, .fixed-row .col3:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fixed-row .col3:after {
+  clear: both;
+}
+/* line 47, ../sass/reticula_sass.scss */
+.fixed-row .col4 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fixed-row .col4:before, .fixed-row .col4:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fixed-row .col4:after {
+  clear: both;
+}
+/* line 47, ../sass/reticula_sass.scss */
+.fixed-row .col5 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 380px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fixed-row .col5:before, .fixed-row .col5:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fixed-row .col5:after {
+  clear: both;
+}
+/* line 47, ../sass/reticula_sass.scss */
+.fixed-row .col6 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 460px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fixed-row .col6:before, .fixed-row .col6:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fixed-row .col6:after {
+  clear: both;
+}
+/* line 47, ../sass/reticula_sass.scss */
+.fixed-row .col7 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 540px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fixed-row .col7:before, .fixed-row .col7:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fixed-row .col7:after {
+  clear: both;
+}
+/* line 47, ../sass/reticula_sass.scss */
+.fixed-row .col8 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 620px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fixed-row .col8:before, .fixed-row .col8:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fixed-row .col8:after {
+  clear: both;
+}
+/* line 47, ../sass/reticula_sass.scss */
+.fixed-row .col9 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 700px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fixed-row .col9:before, .fixed-row .col9:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fixed-row .col9:after {
+  clear: both;
+}
+/* line 47, ../sass/reticula_sass.scss */
+.fixed-row .col10 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 780px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fixed-row .col10:before, .fixed-row .col10:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fixed-row .col10:after {
+  clear: both;
+}
+/* line 47, ../sass/reticula_sass.scss */
+.fixed-row .col11 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 860px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fixed-row .col11:before, .fixed-row .col11:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fixed-row .col11:after {
+  clear: both;
+}
+/* line 47, ../sass/reticula_sass.scss */
+.fixed-row .col12 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 940px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fixed-row .col12:before, .fixed-row .col12:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fixed-row .col12:after {
+  clear: both;
+}
+
+/*
+ * Fluid Row Styles
+ */
+/* line 64, ../sass/reticula_sass.scss */
+.fluid-row {
+  /*
+   * Also add relative position to make easier positioning childrens,
+   */
+  position: relative;
+  display: block;
+  *zoom: 1;
+  /*
+   * Also add relative position to make easier positioning childrens,
+   */
+  position: relative;
+  display: block;
+  *zoom: 1;
+  width: 100%;
+  max-width: 100%;
+  margin-left: -1%;
+  margin-right: -1%;
+  box-sizing: border-box;
+  padding-left: 2%;
+  padding-right: 1%;
+  margin-bottom: .5em;
+  background-color: #999;
+}
+/* line 30, ../sass/_reticula.scss */
+.fluid-row:before, .fluid-row:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fluid-row:after {
+  clear: both;
+}
+/* line 30, ../sass/_reticula.scss */
+.fluid-row:before, .fluid-row:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fluid-row:after {
+  clear: both;
+}
+/* line 75, ../sass/reticula_sass.scss */
+.fluid-row .col1 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 6.333%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fluid-row .col1:before, .fluid-row .col1:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fluid-row .col1:after {
+  clear: both;
+}
+/* line 75, ../sass/reticula_sass.scss */
+.fluid-row .col2 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 14.667%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fluid-row .col2:before, .fluid-row .col2:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fluid-row .col2:after {
+  clear: both;
+}
+/* line 75, ../sass/reticula_sass.scss */
+.fluid-row .col3 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 23.0%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fluid-row .col3:before, .fluid-row .col3:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fluid-row .col3:after {
+  clear: both;
+}
+/* line 75, ../sass/reticula_sass.scss */
+.fluid-row .col4 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 31.333%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fluid-row .col4:before, .fluid-row .col4:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fluid-row .col4:after {
+  clear: both;
+}
+/* line 75, ../sass/reticula_sass.scss */
+.fluid-row .col5 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 39.666%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fluid-row .col5:before, .fluid-row .col5:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fluid-row .col5:after {
+  clear: both;
+}
+/* line 75, ../sass/reticula_sass.scss */
+.fluid-row .col6 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 48.0%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fluid-row .col6:before, .fluid-row .col6:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fluid-row .col6:after {
+  clear: both;
+}
+/* line 75, ../sass/reticula_sass.scss */
+.fluid-row .col7 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 56.333%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fluid-row .col7:before, .fluid-row .col7:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fluid-row .col7:after {
+  clear: both;
+}
+/* line 75, ../sass/reticula_sass.scss */
+.fluid-row .col8 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 64.666%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fluid-row .col8:before, .fluid-row .col8:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fluid-row .col8:after {
+  clear: both;
+}
+/* line 75, ../sass/reticula_sass.scss */
+.fluid-row .col9 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 72.999%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fluid-row .col9:before, .fluid-row .col9:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fluid-row .col9:after {
+  clear: both;
+}
+/* line 75, ../sass/reticula_sass.scss */
+.fluid-row .col10 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 81.333%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fluid-row .col10:before, .fluid-row .col10:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fluid-row .col10:after {
+  clear: both;
+}
+/* line 75, ../sass/reticula_sass.scss */
+.fluid-row .col11 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 89.666%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fluid-row .col11:before, .fluid-row .col11:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fluid-row .col11:after {
+  clear: both;
+}
+/* line 75, ../sass/reticula_sass.scss */
+.fluid-row .col12 {
+  /*
+   * Use the new box model, in case we need to add padding and borders
+   */
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 97.999%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 2em;
+  background-color: #CCC;
+  *zoom: 1;
+  text-align: center;
+}
+/* line 30, ../sass/_reticula.scss */
+.fluid-row .col12:before, .fluid-row .col12:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../sass/_reticula.scss */
+.fluid-row .col12:after {
+  clear: both;
 }

@@ -1,6 +1,88 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* Welcome to Retícula.
+ *
+ */
 
 @import "compass/reset";
+@import "reticula";
+
+.banner{
+	@include fixed-row();
+	border:1px solid gray;
+
+	> header{
+		@include fixed-column(4);
+		background-color:red;
+
+		height:6em;
+	}
+
+	> nav {
+		@include fixed-column(8);
+		background-color:green;
+
+		height:6em;
+	}
+}
+
+/*
+ * Rows container
+ */ 
+.fixed_columns{
+	@include rows_container();
+}
+
+
+
+/*
+ * Fixed Row styles
+ */ 
+.fixed-row{
+	@include fixed-row();
+
+	margin-bottom:.5em;
+
+	background-color:#999;
+
+	@for $i from 1 through $columns-num {
+		.col#{$i} {
+			@include fixed-column($i);
+
+			height:2em;
+
+			background-color:#CCC;
+
+			@include clearfix;
+
+			text-align:center;
+		}
+	}
+}
+
+/*
+ * Fluid Row Styles
+ */ 
+.fluid-row{
+	@include fluid-row();
+
+	// ! Using padding can break the layout in < IE8
+	// padding:.5em;
+
+	margin-bottom:.5em;
+
+	background-color:#999;
+
+	@for $i from 1 through $columns-num {
+		.col#{$i} {
+			@include fluid-column($i);
+
+			height:2em;
+
+			background-color:#CCC;
+
+			@include clearfix;
+
+			text-align:center;
+		}
+	}
+}
+
