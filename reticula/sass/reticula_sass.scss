@@ -86,3 +86,30 @@
 	}
 }
 
+.grid-layout{
+	//Padding using global variables
+	padding-left:$fixed-gutter#{$fixed-units};
+	padding-top:$fixed-gutter#{$fixed-units};
+
+	background-color:#CCC;
+
+	margin-bottom:2em;
+
+	> div{
+		background-color:#999;
+		text-align:center;
+
+		padding-top:.5em;
+		padding-bottom:.5em;
+	}
+}
+
+.fx-grid2{ @include fixed-grid(2); @extend .grid-layout; }
+.fx-grid3{ @include fixed-grid(3); @extend .grid-layout; }
+.fx-grid4{ @include fixed-grid(4); @extend .grid-layout; }
+.fx-grid6{ @include fixed-grid(6); @extend .grid-layout; }
+
+.fl-grid2{ @include fluid-grid(2); @extend .grid-layout; }
+.fl-grid3{ @include fluid-grid(3); @extend .grid-layout; }
+.fl-grid4{ @include fluid-grid(4); @extend .grid-layout; }
+.fl-grid6{ @include fluid-grid(6); @extend .grid-layout; }

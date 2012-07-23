@@ -157,7 +157,7 @@ $columns-num: 12;
 	 * Use the new box model, in case we need to add padding and borders
 	 */ 
 	box-sizing: border-box;
-	display: inline;
+	display: inline-block;
 	float: left;
 }
 
@@ -223,32 +223,73 @@ $columns-num: 12;
 //  * one column less than $x, separeted by $y percent
 //  * 
 //  */ 
+@mixin fixed-grid($cols, $max-cols:$columns-num) {
+	// Calculate total widht
+	$total-widht:column-width($max-cols);
+	
+	@extend .row;
 
-	@mixin simple_grid($x, $y:3%) {
-		
-		@extend .row;
+	width:$total-widht#{$fixed-units};
 
-		> * {
-			/*
-			 * Caculate width ang set margin
-			 */ 
-			width: (100% - (($x - 1) * $y) )/$x;
-			margin-right:$y;	
+	> * {
 
-			/*
-			 * Apply nth-children to get exact columns
-			 */ 
-			&:nth-child(#{$x}n+#{$x}){
-				margin-right:0;
-			}
-			
-			/*
-			 * Layout properties
-			 */ 
-			float:left;
-			
+		@extend .column;
+
+		//Calculate width and set width
+		$width: ($total-widht - (($cols) * $fixed-gutter))/$cols;
+		width:$width#{$fixed-units};
+		max-width:$width#{$fixed-units};
+
+		// Apply margin
+		margin-right:$fixed_gutter#{$fixed-units} !important;
+
+		//Since we don't want the row to be joined
+		// we add a margin bottom
+		// @DECIDE if this can be displayed based on a variable
+		margin-bottom:$fixed-gutter#{$fixed-units};
+
+		// Apply nth-children to get exact columns by rows
+		&:nth-child(#{$cols}n+#{$cols}){
+			margin-right:0 !important;
 		}
 	}
+}
+
+@mixin fluid-grid($cols, $max-cols:$columns-num) {
+	// Calculate total widht
+	$total-widht:100;
+	
+	@extend .row;
+
+	// Uses border size to allow padding
+	box-sizing:border-box;
+	
+
+	width:$total-widht*(1%);
+
+	> * {
+
+		@extend .column;
+
+		//Calculate width and set width
+		$width: ($total-widht - (($cols) * $fluid-gutter))/$cols;
+		width:$width*(1%);
+		max-width:$width*(1%);
+
+		// Apply margin
+		margin-right:$fluid_gutter*(1%) !important;
+
+		//Since we don't want the row to be joined
+		// we add a margin bottom
+		// @DECIDE if this can be displayed based on a variable
+		margin-bottom:$fixed-gutter#{$fixed-units};
+
+		// Apply nth-children to get exact columns by rows
+		&:nth-child(#{$cols}n+#{$cols}){
+			margin-right:0 !important;
+		}
+	}
+}
 
 // /*
 //  * Push and pull are done by using left property instead of margin
