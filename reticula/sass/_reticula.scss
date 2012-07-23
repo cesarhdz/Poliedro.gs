@@ -67,7 +67,7 @@ $columns-num: 12;
 }
 
 
-@mixin _row_layout(){
+.row{
 	/*
 	 * Also add relative position to make easier positioning childrens,
 	 */ 
@@ -79,7 +79,7 @@ $columns-num: 12;
 // Mixin for fiexd rows
 @mixin fixed-row($_columns:$columns-num, $with_padding:true) {
 
-	@include _row_layout;
+	@extend .row;
 
 	//Caculate dimensions
 	$calculated-total-width: column-width($_columns);
@@ -108,7 +108,7 @@ $columns-num: 12;
 
 @mixin fluid-row($max_cols:0, $with_padding:true) {
 
-	@include _row_layout();
+	@extend .row;
 
 	$total-width:100%;
 
@@ -152,7 +152,7 @@ $columns-num: 12;
 	// *margin-right: $calculated-margin-width-$correction;
 }
 
-@mixin _column_layout{
+.column{
 	/*
 	 * Use the new box model, in case we need to add padding and borders
 	 */ 
@@ -163,7 +163,7 @@ $columns-num: 12;
 
 @mixin fixed-column($x, $columns:$columns-num) {
 
-	@include _column_layout();
+	@extend .column;
 
 	$total-width: column-width($columns);
 
@@ -182,7 +182,7 @@ $columns-num: 12;
 
 @mixin fluid-column($x, $columns:$columns-num){
 
-	@include _column_layout();
+	@extend .column;
 
 	$total-width : 100%;
 
@@ -224,30 +224,31 @@ $columns-num: 12;
 //  * 
 //  */ 
 
-// @mixin grid($x, $y:3%) {
-// 	> * {
-// 		/*
-// 		 * Caculate width ang set margin
-// 		 */ 
-// 		width: (100% - (($x - 1) * $y) )/$x;
-// 		margin-right:$y;	
-
-// 		/*
-// 		 * Apply nth-children to get exact columns
-// 		 */ 
-// 		&:nth-child(#{$x}n+#{$x}){
-// 			margin-right:0;
-// 		}
+	@mixin simple_grid($x, $y:3%) {
 		
-// 		/*
-// 		 * Layout properties
-// 		 */ 
-// 		float:left;
-		
-// 	}
+		@extend .row;
 
-// 	@include clearfix();
-// }
+		> * {
+			/*
+			 * Caculate width ang set margin
+			 */ 
+			width: (100% - (($x - 1) * $y) )/$x;
+			margin-right:$y;	
+
+			/*
+			 * Apply nth-children to get exact columns
+			 */ 
+			&:nth-child(#{$x}n+#{$x}){
+				margin-right:0;
+			}
+			
+			/*
+			 * Layout properties
+			 */ 
+			float:left;
+			
+		}
+	}
 
 // /*
 //  * Push and pull are done by using left property instead of margin
