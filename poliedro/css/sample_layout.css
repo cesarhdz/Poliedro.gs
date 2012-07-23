@@ -2,7 +2,7 @@
 /* Welcome to Retícula.
  *
  */
-/* line 17, ../../../../../../RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, c:/RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,50 +24,50 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, c:/RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, c:/RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, c:/RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, c:/RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, c:/RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, c:/RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, c:/RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, c:/RubyonRails/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 70, ../scss/_poliedro.scss */
+/* line 70, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .row, .banner, .fixed-row, .fluid-row, .fx-grid2, .fx-grid3, .fx-grid4, .fx-grid6, .fl-grid2, .fl-grid3, .fl-grid4, .fl-grid6 {
   /*
    * Also add relative position to make easier positioning childrens,
@@ -76,17 +76,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
   *zoom: 1;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .row:before, .banner:before, .fixed-row:before, .fluid-row:before, .fx-grid2:before, .fx-grid3:before, .fx-grid4:before, .fx-grid6:before, .fl-grid2:before, .fl-grid3:before, .fl-grid4:before, .fl-grid6:before, .row:after, .banner:after, .fixed-row:after, .fluid-row:after, .fx-grid2:after, .fx-grid3:after, .fx-grid4:after, .fx-grid6:after, .fl-grid2:after, .fl-grid3:after, .fl-grid4:after, .fl-grid6:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .row:after, .banner:after, .fixed-row:after, .fluid-row:after, .fx-grid2:after, .fx-grid3:after, .fx-grid4:after, .fx-grid6:after, .fl-grid2:after, .fl-grid3:after, .fl-grid4:after, .fl-grid6:after {
   clear: both;
 }
 
-/* line 155, ../scss/_poliedro.scss */
+/* line 155, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .column, .banner > header, .banner > nav, .fixed-row .col1, .fixed-row .col2, .fixed-row .col3, .fixed-row .col4, .fixed-row .col5, .fixed-row .col6, .fixed-row .col7, .fixed-row .col8, .fixed-row .col9, .fixed-row .col10, .fixed-row .col11, .fixed-row .col12, .fluid-row .col1, .fluid-row .col2, .fluid-row .col3, .fluid-row .col4, .fluid-row .col5, .fluid-row .col6, .fluid-row .col7, .fluid-row .col8, .fluid-row .col9, .fluid-row .col10, .fluid-row .col11, .fluid-row .col12, .fx-grid2 > *, .fx-grid3 > *, .fx-grid4 > *, .fx-grid6 > *, .fl-grid2 > *, .fl-grid3 > *, .fl-grid4 > *, .fl-grid6 > * {
   /*
    * Use the new box model, in case we need to add padding and borders
@@ -96,17 +96,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   float: left;
 }
 
-/* line 309, ../scss/_poliedro.scss */
+/* line 309, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 body {
   width: 100%;
   *zoom: 1;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 body:before, body:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 body:after {
   clear: both;
 }
@@ -168,12 +168,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col1:before, .fixed-row .col1:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col1:after {
   clear: both;
 }
@@ -187,12 +187,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col2:before, .fixed-row .col2:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col2:after {
   clear: both;
 }
@@ -206,12 +206,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col3:before, .fixed-row .col3:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col3:after {
   clear: both;
 }
@@ -225,12 +225,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col4:before, .fixed-row .col4:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col4:after {
   clear: both;
 }
@@ -244,12 +244,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col5:before, .fixed-row .col5:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col5:after {
   clear: both;
 }
@@ -263,12 +263,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col6:before, .fixed-row .col6:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col6:after {
   clear: both;
 }
@@ -282,12 +282,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col7:before, .fixed-row .col7:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col7:after {
   clear: both;
 }
@@ -301,12 +301,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col8:before, .fixed-row .col8:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col8:after {
   clear: both;
 }
@@ -320,12 +320,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col9:before, .fixed-row .col9:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col9:after {
   clear: both;
 }
@@ -339,12 +339,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col10:before, .fixed-row .col10:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col10:after {
   clear: both;
 }
@@ -358,12 +358,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col11:before, .fixed-row .col11:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col11:after {
   clear: both;
 }
@@ -377,12 +377,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col12:before, .fixed-row .col12:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fixed-row .col12:after {
   clear: both;
 }
@@ -408,12 +408,12 @@ body:after {
   margin-bottom: .5em;
   background-color: #999;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row:before, .fluid-row:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row:after {
   clear: both;
 }
@@ -427,12 +427,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col1:before, .fluid-row .col1:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col1:after {
   clear: both;
 }
@@ -446,12 +446,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col2:before, .fluid-row .col2:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col2:after {
   clear: both;
 }
@@ -465,12 +465,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col3:before, .fluid-row .col3:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col3:after {
   clear: both;
 }
@@ -484,12 +484,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col4:before, .fluid-row .col4:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col4:after {
   clear: both;
 }
@@ -503,12 +503,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col5:before, .fluid-row .col5:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col5:after {
   clear: both;
 }
@@ -522,12 +522,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col6:before, .fluid-row .col6:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col6:after {
   clear: both;
 }
@@ -541,12 +541,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col7:before, .fluid-row .col7:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col7:after {
   clear: both;
 }
@@ -560,12 +560,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col8:before, .fluid-row .col8:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col8:after {
   clear: both;
 }
@@ -579,12 +579,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col9:before, .fluid-row .col9:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col9:after {
   clear: both;
 }
@@ -598,12 +598,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col10:before, .fluid-row .col10:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col10:after {
   clear: both;
 }
@@ -617,12 +617,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col11:before, .fluid-row .col11:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col11:after {
   clear: both;
 }
@@ -636,12 +636,12 @@ body:after {
   *zoom: 1;
   text-align: center;
 }
-/* line 30, ../scss/_poliedro.scss */
+/* line 30, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col12:before, .fluid-row .col12:after {
   content: "";
   display: table;
 }
-/* line 34, ../scss/_poliedro.scss */
+/* line 34, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fluid-row .col12:after {
   clear: both;
 }
@@ -665,14 +665,14 @@ body:after {
 .fx-grid2 {
   width: 960px;
 }
-/* line 234, ../scss/_poliedro.scss */
+/* line 234, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fx-grid2 > * {
   width: 460px;
   max-width: 460px;
   margin-right: 20px !important;
   margin-bottom: 20px;
 }
-/* line 252, ../scss/_poliedro.scss */
+/* line 252, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fx-grid2 > *:nth-child(2n+2) {
   margin-right: 0 !important;
 }
@@ -681,14 +681,14 @@ body:after {
 .fx-grid3 {
   width: 960px;
 }
-/* line 234, ../scss/_poliedro.scss */
+/* line 234, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fx-grid3 > * {
   width: 300px;
   max-width: 300px;
   margin-right: 20px !important;
   margin-bottom: 20px;
 }
-/* line 252, ../scss/_poliedro.scss */
+/* line 252, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fx-grid3 > *:nth-child(3n+3) {
   margin-right: 0 !important;
 }
@@ -697,14 +697,14 @@ body:after {
 .fx-grid4 {
   width: 960px;
 }
-/* line 234, ../scss/_poliedro.scss */
+/* line 234, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fx-grid4 > * {
   width: 220px;
   max-width: 220px;
   margin-right: 20px !important;
   margin-bottom: 20px;
 }
-/* line 252, ../scss/_poliedro.scss */
+/* line 252, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fx-grid4 > *:nth-child(4n+4) {
   margin-right: 0 !important;
 }
@@ -713,14 +713,14 @@ body:after {
 .fx-grid6 {
   width: 960px;
 }
-/* line 234, ../scss/_poliedro.scss */
+/* line 234, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fx-grid6 > * {
   width: 140px;
   max-width: 140px;
   margin-right: 20px !important;
   margin-bottom: 20px;
 }
-/* line 252, ../scss/_poliedro.scss */
+/* line 252, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fx-grid6 > *:nth-child(6n+6) {
   margin-right: 0 !important;
 }
@@ -730,14 +730,14 @@ body:after {
   box-sizing: border-box;
   width: 100%;
 }
-/* line 270, ../scss/_poliedro.scss */
+/* line 270, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fl-grid2 > * {
   width: 48%;
   max-width: 48%;
   margin-right: 2% !important;
   margin-bottom: 20px;
 }
-/* line 288, ../scss/_poliedro.scss */
+/* line 288, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fl-grid2 > *:nth-child(2n+2) {
   margin-right: 0 !important;
 }
@@ -747,14 +747,14 @@ body:after {
   box-sizing: border-box;
   width: 100%;
 }
-/* line 270, ../scss/_poliedro.scss */
+/* line 270, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fl-grid3 > * {
   width: 31.333%;
   max-width: 31.333%;
   margin-right: 2% !important;
   margin-bottom: 20px;
 }
-/* line 288, ../scss/_poliedro.scss */
+/* line 288, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fl-grid3 > *:nth-child(3n+3) {
   margin-right: 0 !important;
 }
@@ -764,14 +764,14 @@ body:after {
   box-sizing: border-box;
   width: 100%;
 }
-/* line 270, ../scss/_poliedro.scss */
+/* line 270, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fl-grid4 > * {
   width: 23%;
   max-width: 23%;
   margin-right: 2% !important;
   margin-bottom: 20px;
 }
-/* line 288, ../scss/_poliedro.scss */
+/* line 288, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fl-grid4 > *:nth-child(4n+4) {
   margin-right: 0 !important;
 }
@@ -781,14 +781,14 @@ body:after {
   box-sizing: border-box;
   width: 100%;
 }
-/* line 270, ../scss/_poliedro.scss */
+/* line 270, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fl-grid6 > * {
   width: 14.667%;
   max-width: 14.667%;
   margin-right: 2% !important;
   margin-bottom: 20px;
 }
-/* line 288, ../scss/_poliedro.scss */
+/* line 288, c:/xampp/htdocs/sandbox/reticula/poliedro/scss/_poliedro.scss */
 .fl-grid6 > *:nth-child(6n+6) {
   margin-right: 0 !important;
 }
